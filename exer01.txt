@@ -1,0 +1,6 @@
+Criar as funções em php
+
+1 - Uma função que mostre seu nome completo;
+2 - Uma função que calcule a média de um aluno, sendo as quatro notas:
+nota1 = 8, nota2 = 3, nota3 = 5 e nota4 = 9 e mostre o resultado.
+3 - Crie uma variável e coloque sua idade, dentro da função mostrarIdade() use a variável como argumento para mostrar o valor da variável pela função.
