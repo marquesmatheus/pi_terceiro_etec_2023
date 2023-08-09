@@ -1,6 +1,6 @@
 <?php
 // Include the database connection file
-require_once("dbConnection.php");
+require_once("conn.php");
 
 // Fetch data in descending order (lastest entry first)
 $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
