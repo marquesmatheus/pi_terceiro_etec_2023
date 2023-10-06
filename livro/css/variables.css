@@ -1,0 +1,23 @@
+/* CSS Variables */
+
+:root {
+    --main-theme: #eb8006;
+
+    --sec-theme: #ff9100e1;
+
+    --thr-theme: #bb712c;
+
+    --body-text: #333;
+
+    --white: #ffffff;
+
+    --black: #cccccc;
+
+    --paragraph: #777777;
+
+    --sticky-bg: #e2932a;
+
+    --nav-links: #ffffff;
+
+    --home-bg: linear-gradient(50deg, #110a00, #000000);
+  }
