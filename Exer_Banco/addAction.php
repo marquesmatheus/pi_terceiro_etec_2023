@@ -10,8 +10,8 @@ require_once("dbConnection.php");
 
 if (isset($_POST['submit'])) {
 	// Escape special characters in string for use in SQL statement	
-	$name = mysqli_real_escape_string($mysqli, $_POST['name']);
-	$age = mysqli_real_escape_string($mysqli, $_POST['age']);
+	$name = mysqli_real_escape_string($mysqli, $_POST['nome']);
+	$age = mysqli_real_escape_string($mysqli, $_POST['idade']);
 	$email = mysqli_real_escape_string($mysqli, $_POST['email']);
 		
 	// Check for empty fields
@@ -34,7 +34,7 @@ if (isset($_POST['submit'])) {
 		// If all the fields are filled (not empty) 
 
 		// Insert data into database
-		$result = mysqli_query($mysqli, "INSERT INTO users (`name`, `age`, `email`) VALUES ('$name', '$age', '$email')");
+		$result = mysqli_query($mysqli, "INSERT INTO users (nomes, idades, email) VALUES ('$name', '$age', '$email')");
 		
 		// Display success message
 		echo "<p><font color='green'>Dados adicionados com sucesso!</p>";
